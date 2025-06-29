@@ -1,5 +1,9 @@
-title: "[Idea]: "
-labels: ["idea"]
+name: 💡 Idea
+description: Share an idea or feature concept for discussion
+title: '[Idea]: '
+labels: ['idea']
+assignees:
+  - dgtalbug
 body:
   - type: markdown
     attributes:

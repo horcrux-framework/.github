@@ -1,5 +1,9 @@
-title: "[Question]: "
-labels: ["question"]
+name: ❓ Question
+description: Ask a question or request clarification
+title: '[Question]: '
+labels: ['question']
+assignees:
+  - dgtalbug
 body:
   - type: markdown
     attributes:
