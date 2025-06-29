@@ -115,7 +115,9 @@ To get started:
 
 ## 📜 License
 
-Horcrux is open-source under the [Apache 2.0 License](./LICENSE).
+Horcrux is open-source under the [Apache License 2.0](./LICENSE).  
+© 2025 [dgtalbug](https://github.com/dgtalbug)
+
 
 <!-- ---
 
