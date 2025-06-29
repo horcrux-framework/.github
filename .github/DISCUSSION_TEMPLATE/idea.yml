@@ -1,0 +1,56 @@
+name: 💡 Idea
+description: Share an idea or feature concept for discussion
+title: "[Idea]: "
+labels: ["idea"]
+assignees:
+  - dgtalbug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your idea with the Horcrux project! This form helps us evaluate and track creative contributions.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we reach you if we have follow-up questions?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What’s your idea?
+      description: Describe your concept or proposal in detail.
+      placeholder: ex. Add a plugin sandbox feature to allow safer 3rd-party execution.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why is it useful?
+      description: How will this benefit the project or its users?
+      placeholder: ex. It would allow a community ecosystem of reusable and safe modules.
+    validations:
+      required: true
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: Anything else?
+      description: Optional — mockups, links, or related references.
+      placeholder: ex. See the architecture from [Jetpack Compose Plugin System]
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this idea, you agree to follow our [Code of Conduct](https://example.com).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
