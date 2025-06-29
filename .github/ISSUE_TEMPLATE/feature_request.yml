@@ -1,0 +1,55 @@
+name: ✨ Feature Request
+description: Suggest a new idea or improvement for Horcrux
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees:
+  - dgtalbug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing a feature idea to Horcrux! Please fill out the form below so we can understand your request better.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we reach out if we need clarification?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: feature-summary
+    attributes:
+      label: What would you like to see?
+      description: Describe the proposed feature or improvement clearly.
+      placeholder: ex. Add a plugin system for speech recognition
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case or motivation
+      description: Why is this feature needed? What problem does it solve?
+      placeholder: ex. This will allow us to support offline models and local integrations.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested solution
+      description: Optional — how might we build it? Any references or proposals?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this feature request, you agree to follow our [Code of Conduct](https://example.com).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
