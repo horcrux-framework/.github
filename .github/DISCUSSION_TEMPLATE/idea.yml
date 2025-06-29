@@ -1,9 +1,6 @@
-name: 💡 Idea
-description: Share an idea or feature concept for discussion
+version: "2.1"
 title: "[Idea]: "
 labels: ["idea"]
-assignees:
-  - dgtalbug
 body:
   - type: markdown
     attributes:
